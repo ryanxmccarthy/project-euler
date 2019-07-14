@@ -1,14 +1,13 @@
-let sumSquare = 0;
-let squareSum = 0;
 let j = 0;
+let k = 0;
 
 for (var i = 0; i < 101; i++) {
   let square = i * i;
-  sumSquare = sumSquare + square;
+  j = j + square;
 }
 
 for (var i = 0; i < 101; i++) {
-  j = j + i;
+  k = k + i;
 }
 
-console.log(j * j - sumSquare);
+console.log(k * k - j);
